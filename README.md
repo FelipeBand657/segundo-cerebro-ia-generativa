@@ -12,7 +12,7 @@ O estudo aborda conceitos, funcionamento, aplicações, benefícios, limitaçõe
 
 O notebook foi utilizado para consultar as fontes selecionadas, fazer perguntas sobre o tema e gerar materiais de estudo.
 
-[🔗 Acessar o Gemini Notebook](https://notebook.google.com/notebook/d64a45f5-dcc4-4caf-b05c-ede7cc5f348e)
+[ Acessar o Gemini Notebook](https://notebook.google.com/notebook/d64a45f5-dcc4-4caf-b05c-ede7cc5f348e)
 
 ## Fontes utilizadas e por que confio nelas
 
@@ -134,8 +134,8 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 Durante o estudo foram utilizados os recursos de geração de materiais disponíveis no notebook.
 
-- [🧠 Mapa mental](materiais/mapa-mental.png): principais conceitos estudados, incluindo conceito, funcionamento, aplicações, benefícios, limitações, riscos e uso responsável.
-- [📊 Slides (PDF)](materiais/slides.pdf): apresentação com os principais conteúdos estudados sobre IA Generativa.
+- [ Mapa mental](materiais/mapa-mental.png): principais conceitos estudados, incluindo conceito, funcionamento, aplicações, benefícios, limitações, riscos e uso responsável.
+- [ Slides (PDF)](materiais/slides.pdf): apresentação com os principais conteúdos estudados sobre IA Generativa.
 
 ![Mapa mental](materiais/mapa-mental.png)
 
