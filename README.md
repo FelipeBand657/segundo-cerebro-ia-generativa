@@ -24,7 +24,7 @@ Foram selecionadas fontes de diferentes formatos e instituições para reunir in
 - **Google Cloud — "Generative AI":** documentação oficial de uma das empresas que desenvolvem essa tecnologia. Utilizada para conceitos fundamentais e aplicações práticas.
 
 As informações e links completos das fontes estão disponíveis em:
-[📚 Ver fontes utilizadas](fontes/fontes.md)
+[ Ver fontes utilizadas](fontes/fontes.md)
 
 ## Diretriz de comportamento do notebook
 
@@ -58,7 +58,7 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ![Pergunta 1](evidencias/pergunta-01.png)
 
-📂 [Ver prints completos da resposta](evidencias/resposta-01/)
+ [Ver prints completos da resposta](evidencias/resposta-01/)
 
 ### 2. Quais são as principais aplicações da IA Generativa?
 
@@ -85,7 +85,7 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ![Pergunta 2](evidencias/pergunta-02.png)
 
-📂 [Ver prints completos da resposta](evidencias/resposta-02/)
+ [Ver prints completos da resposta](evidencias/resposta-02/)
 
 ### 3. Quais são os principais riscos e limitações?
 
@@ -104,7 +104,7 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ![Pergunta 3](evidencias/pergunta-03.png)
 
-📂 [Ver prints completos da resposta](evidencias/resposta-03/)
+ [Ver prints completos da resposta](evidencias/resposta-03/)
 
 ### 4. Comparação entre as fontes
 
@@ -128,7 +128,7 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ![Pergunta 4](evidencias/pergunta-04.png)
 
-📂 [Ver prints completos da resposta](evidencias/resposta-04/)
+ [Ver prints completos da resposta](evidencias/resposta-04/)
 
 ## Materiais gerados
 
