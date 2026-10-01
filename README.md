@@ -54,7 +54,7 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 - **Evolução das arquiteturas:** VAEs (2013), GANs (2014), modelos de difusão (2014) e Transformers (2017).
 - **Aplicações em software:** geração e autocompletamento de código, modernização de sistemas legados e agentes de IA.
 
-**Fontes citadas:** IBM, NIST (AI 600-1 e AI RMF Generative AI Profile) e Google Cloud. Foram usadas as 4 fontes do notebook.
+**Fontes citadas:** IBM, NIST (AI 600-1 e AI RMF Generative AI Profile) e Google Cloud.
 
 ![Pergunta 1](evidencias/pergunta-01.png)
 
@@ -62,9 +62,26 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ### 2. Quais são as principais aplicações da IA Generativa?
 
-**Pergunta:** aplicações em diferentes áreas, como texto, imagem, áudio, vídeo e programação.
-**O que o notebook respondeu:** apresentou aplicações da IA generativa em diferentes áreas, indicando a fonte de cada uma.
-**Fontes citadas:** IBM e Google Cloud.
+**Pergunta:** principais aplicações da IA Generativa, organizadas em categorias (texto, imagem, áudio, vídeo e programação), indicando as fontes que sustentam cada informação.
+
+**O que o notebook respondeu:**
+- **Texto:** redação de artigos, e-mails, relatórios e resumos, além de chatbots e agentes virtuais para atendimento ao cliente. Impulsionado por LLMs baseados em Transformers.
+- **Imagem:** criação de arte e imagens a partir de *prompts*, transferência de estilo e extração de texto de imagens. Usa GANs, VAEs e modelos de difusão.
+- **Áudio:** síntese de fala (Text-to-Speech), transcrição (Speech-to-Text), narração de audiobooks e composição musical.
+- **Vídeo:** geração de animações e vídeos curtos a partir de texto, efeitos especiais, edição e *storyboards*.
+- **Programação:** geração e autocompletamento de código, testes unitários, depuração, tradução entre linguagens e modernização de sistemas legados.
+- **Outras aplicações:** descoberta de moléculas e imagens médicas sintéticas, dados sintéticos que protegem informações pessoais, e criação de avatares e cenários para jogos.
+
+**Fontes citadas:** IBM, Google Cloud e NIST (AI 600-1). Mapeamento por categoria:
+
+| Categoria | Fontes |
+|---|---|
+| Texto | IBM, Google Cloud e NIST |
+| Imagem | IBM, Google Cloud e NIST |
+| Áudio / Música | IBM e Google Cloud |
+| Vídeo | Google Cloud e IBM |
+| Programação | IBM e Google Cloud |
+| Dados sintéticos / Saúde | IBM e NIST |
 
 ![Pergunta 2](evidencias/pergunta-02.png)
 
@@ -72,9 +89,18 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ### 3. Quais são os principais riscos e limitações?
 
-**Pergunta:** principais riscos e limitações da IA Generativa, usando principalmente o material do NIST e comparando com as demais fontes.
-**O que o notebook respondeu:** listou riscos e limitações, com base principalmente no NIST, e comparou com o que as outras fontes dizem.
-**Fontes citadas:** NIST, com comparações com IBM e Google Cloud.
+**Pergunta:** principais riscos e limitações da IA Generativa, usando principalmente o NIST e comparando com as outras fontes quando tratam dos mesmos assuntos, mostrando claramente as fontes.
+
+**O que o notebook respondeu:**
+- **Imprecisões e erros:** o NIST usa o termo *confabulação* e a IBM usa *alucinação*. Ambos descrevem o modelo gerando informações falsas com aparência confiável, por causa da previsão estatística do próximo *token*. A IBM cita o caso de um advogado que usou IA e recebeu processos judiciais inventados.
+- **Cibersegurança:** a IA facilita ataques (criação de *malware* e *phishing*) e amplia a superfície de ataque com injeção de prompt e envenenamento de dados. A IBM confirma o risco de *phishing* e identidades falsas.
+- **Privacidade e propriedade intelectual:** dados de treinamento podem incluir informações pessoais e conteúdo protegido por direitos autorais. A IBM destaca o risco nos dois sentidos: vazamento de segredos nos prompts e violação de propriedade intelectual no conteúdo gerado.
+- **Vieses, homogeneização e colapso do modelo:** perpetuação de preconceitos, perda de diversidade de conteúdo e degradação de modelos treinados com dados sintéticos de outras IAs. A IBM reconhece o problema dos vieses.
+- **Fatores humanos:** antropomorfização, excesso de confiança nas respostas (viés de automação) e dependência emocional.
+- **Impacto ambiental:** alto consumo de energia e recursos. O notebook informou que IBM e Google Cloud não detalham métricas ambientais nos trechos analisados.
+- **Cadeia de suprimentos de TI:** uso de modelos e dados de terceiros dificulta a rastreabilidade e a responsabilização por falhas.
+
+**Fontes citadas:** NIST (AI 600-1) como fonte principal, IBM como fonte complementar (alucinação, propriedade intelectual e *phishing*) e Google Cloud (infraestrutura de segurança e governança em nuvem).
 
 ![Pergunta 3](evidencias/pergunta-03.png)
 
@@ -82,9 +108,23 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 
 ### 4. Comparação entre as fontes
 
-**Pergunta:** comparação entre IBM, NIST e Google Cloud, com pontos em comum e diferenças de abordagem.
-**O que o notebook respondeu:** apontou o que as três fontes têm em comum e como cada uma aborda o tema de forma diferente.
-**Fontes citadas:** IBM, NIST e Google Cloud.
+**Pergunta:** comparação entre IBM, NIST e Google Cloud: pontos que aparecem em mais de uma fonte, assuntos tratados de maneiras diferentes e a fonte de cada informação.
+
+**O que o notebook respondeu:**
+- **Pontos em comum:** as três fontes concordam sobre a definição de IA generativa (modelos de *Deep Learning* que criam conteúdo a partir de *prompts*), o papel na engenharia de software (geração de código, testes e modernização de sistemas legados) e os riscos de segurança e privacidade (dados pessoais, injeção de prompt, direitos autorais). IBM e Google Cloud destacam os agentes autônomos. IBM e NIST destacam o ajuste fino e o RAG.
+- **Erros do modelo:** a IBM usa *alucinação*, com um exemplo jurídico e *guardrails*. O NIST adota *confabulação*, por considerar que "alucinação" antropomorfiza a máquina. A Google Cloud foca no raciocínio dos modelos multimodais e na ancoragem de dados.
+- **Escopo de cada fonte:** a IBM é conceitual e voltada a negócios, com histórico das redes neurais, do ELIZA (1964) aos Transformers (2017). O NIST é normativo e de governança de riscos (AI RMF). A Google Cloud é prática e de plataforma, com produtos como o Gemini Code Assist e o Gemini Enterprise Agent Platform.
+- **Modelos de fundação e custo:** a IBM destaca o alto custo de treinar um modelo do zero e sugere modelos de código aberto. O NIST define os "modelos de fundação de duplo uso" e foca nos riscos sistêmicos.
+- **Impacto ambiental:** o NIST é a única das fontes a tratá-lo explicitamente como categoria de risco.
+
+**Fontes citadas:** IBM, NIST e Google Cloud, com mapeamento por tema:
+
+| Tema | IBM | NIST | Google Cloud |
+|---|---|---|---|
+| Erros da IA | Alucinação (casos práticos) | Confabulação (visão estatística e riscos) | Ancoragem em nuvem e raciocínio |
+| Geração de código | Refatoração e sistemas legados | Revisão de riscos em código gerado | Gemini Code Assist / IDEs |
+| Agentes autônomos | Próximo passo da IA generativa | Relação humano-IA e governança | Enterprise Agent Platform |
+| Enfoque do material | Pedagógico e de negócios | Normativo e de risco (AI RMF) | Infraestrutura e produtos |
 
 ![Pergunta 4](evidencias/pergunta-04.png)
 
