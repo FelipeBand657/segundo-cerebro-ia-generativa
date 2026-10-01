@@ -38,7 +38,7 @@ para reunir informações sobre diferentes aspectos da IA generativa.
 
 As informações e links completos das fontes estão disponíveis em:
 
-[📚 Ver fontes utilizadas](fontes/fontes.md)
+[📚 Ver fontes utilizadas]((https://github.com/FelipeBand657/segundo-cerebro-ia-generativa/tree/main/segundo-cerebro-ia-generativa/fontes%3A))
 
 ## Diretriz utilizada no notebook
 
