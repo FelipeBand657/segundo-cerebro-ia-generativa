@@ -19,8 +19,7 @@ O notebook foi utilizado para consultar as fontes selecionadas, fazer perguntas 
 Foram selecionadas fontes de diferentes formatos e instituições para reunir informações sobre diferentes aspectos da IA generativa.
 
 - **IBM — "O que é a IA generativa?":** empresa de tecnologia com atuação e pesquisa próprias em IA, com material didático e atualizado. Utilizada para conceitos, funcionamento, aplicações e benefícios.
-- **NIST — NIST.AI.600-1 (Generative AI Profile):** órgão oficial de padrões e tecnologia dos EUA, com publicação técnica sobre IA generativa. Utilizada para a definição técnica, riscos, limitações e confiabilidade.
-- **NIST — Artificial Intelligence Risk Management Framework: Generative AI Profile:** do mesmo órgão, voltada à governança e ao gerenciamento de riscos. Utilizada para o contexto de governança.
+- **NIST — Artificial Intelligence Risk Management Framework: Generative AI Profile (NIST AI 600-1):** órgão oficial de padrões e tecnologia dos EUA, com publicação técnica sobre IA generativa. Adicionado ao notebook em dois formatos (página web e PDF). Utilizado para a definição técnica, riscos, limitações, confiabilidade e governança.
 - **Google Cloud — "Generative AI":** documentação oficial de uma das empresas que desenvolvem essa tecnologia. Utilizada para conceitos fundamentais e aplicações práticas.
 
 As informações e links completos das fontes estão disponíveis em:
