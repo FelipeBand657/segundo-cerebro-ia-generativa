@@ -18,9 +18,10 @@ O notebook foi utilizado para consultar as fontes selecionadas, fazer perguntas 
 
 Foram selecionadas fontes de diferentes formatos e instituições para reunir informações sobre diferentes aspectos da IA generativa.
 
-- **IBM:** empresa de tecnologia com atuação e pesquisa próprias em inteligência artificial, com material didático e atualizado. Utilizada principalmente para estudar conceitos, funcionamento, aplicações e benefícios da IA generativa.
-- **NIST:** órgão oficial de padrões e tecnologia dos Estados Unidos, com publicações técnicas sobre gerenciamento de riscos de IA. Utilizada principalmente para estudar riscos, limitações, confiabilidade e gerenciamento da IA generativa.
-- **Google Cloud:** documentação oficial de uma das empresas que desenvolvem essa tecnologia. Utilizada para estudar conceitos fundamentais e aplicações da IA generativa.
+- **IBM — "O que é a IA generativa?":** empresa de tecnologia com atuação e pesquisa próprias em IA, com material didático e atualizado. Utilizada para conceitos, funcionamento, aplicações e benefícios.
+- **NIST — NIST.AI.600-1 (Generative AI Profile):** órgão oficial de padrões e tecnologia dos EUA, com publicação técnica sobre IA generativa. Utilizada para a definição técnica, riscos, limitações e confiabilidade.
+- **NIST — Artificial Intelligence Risk Management Framework: Generative AI Profile:** do mesmo órgão, voltada à governança e ao gerenciamento de riscos. Utilizada para o contexto de governança.
+- **Google Cloud — "Generative AI":** documentação oficial de uma das empresas que desenvolvem essa tecnologia. Utilizada para conceitos fundamentais e aplicações práticas.
 
 As informações e links completos das fontes estão disponíveis em:
 [📚 Ver fontes utilizadas](fontes/fontes.md)
@@ -46,8 +47,14 @@ Cada resposta do notebook foi longa, por isso os prints completos de cada uma es
 ### 1. O que é Inteligência Artificial Generativa?
 
 **Pergunta:** conceito de IA Generativa e seu funcionamento, com uma explicação simples e outra mais técnica.
-**O que o notebook respondeu:** explicou o conceito e o funcionamento da IA generativa em linguagem simples e em versão técnica, usando as fontes para sustentar cada ponto.
-**Fontes citadas:** IBM e Google Cloud.
+
+**O que o notebook respondeu:**
+- **Conceito:** é um ramo da IA capaz de criar conteúdos inéditos (texto, imagem, vídeo, áudio, código) a partir de um comando em linguagem natural, o *prompt*. Tecnicamente, é uma classe de modelos de *Deep Learning* que emula a estrutura estatística dos dados de entrada para gerar conteúdo sintético.
+- **Funcionamento:** três fases: treinamento (aprende padrões a partir de grandes volumes de dados), ajuste (*fine-tuning* e RLHF) e geração (prevê a resposta mais provável). Por ser estatística, pode gerar falsas afirmações com confiança, chamadas de *alucinação* (IBM) ou *confabulação* (NIST). A técnica RAG ajuda a reduzir isso consultando bases externas.
+- **Evolução das arquiteturas:** VAEs (2013), GANs (2014), modelos de difusão (2014) e Transformers (2017).
+- **Aplicações em software:** geração e autocompletamento de código, modernização de sistemas legados e agentes de IA.
+
+**Fontes citadas:** IBM, NIST (AI 600-1 e AI RMF Generative AI Profile) e Google Cloud. Foram usadas as 4 fontes do notebook.
 
 ![Pergunta 1](evidencias/pergunta-01.png)
 
